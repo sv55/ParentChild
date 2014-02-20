@@ -153,8 +153,8 @@ public class Searcher {
 		ArrayList<Query> cQuery = new ArrayList<Query>();
 		ArrayList<Query> pQuery = new ArrayList<Query>();
 		PhraseQuery query = new PhraseQuery();
-		query.add(new Term("attcontent", "ii"));
-		query.add(new Term("attcontent", "karuvampalayam"));
+		query.add(new Term("attcontent", "vignesh"));
+		query.add(new Term("attcontent", "sivakumar"));
 		query.setSlop(1);
 		cQuery.add(query);
 		TermQuery t2 = new TermQuery(new Term("attcontent", "aadhar"));
